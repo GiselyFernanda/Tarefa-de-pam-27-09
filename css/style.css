@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cinzel:wght@500;600;700;800;900&family=Viaoda+Libre&display=swap');
+
+body{  
+    overflow: hidden;
+}
+
+.original{
+  background: linear-gradient(#3c1053, #ad5389);
+  height: 108vh;
+}
+
+.dorama{
+  background: linear-gradient(#720070 , #000000  );
+  height: 108vh;
+}
+
+.anime{
+  background: linear-gradient(#0f004e , #4a0055  );
+  height: 108vh;
+}
+
+.novel{
+  background: linear-gradient(#1E003D , #CA0068);
+  height: 108vh;
+}
+
+MP{
+  background-color: #ba68c8;
+  color: #aa00ff;
+  font-family: 'Viaoda Libre', cursive;
+  
+}
+
+.o{
+  font-family: 'Viaoda Libre', cursive;
+  margin: 6px;
+  padding: 6px;
+  font-weight: bold;
+}
+
+.F{
+  background-color: #D6A2E8;
+}
+
+.BR{
+    background: #D6A2E8;
+}
+
+.BRH{
+    font-family: Georgia, serif; 
+    color: #000000;
+}
+
+.CB{
+    background-color: #9b59b6; 
+    color: black;
+}
+
+button:hover{
+  background-color: #e0bcdd;
+  color: black;
+  cursor: pointer;
+  border: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+body{  
+    overflow: auto;
+}
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops) 
+ No media query since the extra-large breakpoint has no upper bound on its width */
